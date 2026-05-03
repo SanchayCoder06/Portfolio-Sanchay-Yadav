@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section className="min-h-screen w-full bg-[#0f172a] text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-20 pt-[90px] md:pt-[110px]">
-
+   <section className="min-h-screen w-full bg-[#0f172a] text-white flex flex-col md:flex-row items-center justify-center px-6 md:px-20 pt-[60px] md:pt-[80px]">
       {/* LEFT SIDE (MAIN CONTENT) */}
       <motion.div
         initial={{ opacity: 0, x: -60 }}
