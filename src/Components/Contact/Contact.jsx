@@ -20,14 +20,15 @@ const SocialLink = ({ href, imgSrc, name, colorClass }) => (
 const Contact = () => {
   // Updated this array to use image URLs (imgSrc) instead of icon components
   const socialHandles = [
-    { name: 'GitHub', href: '#', imgSrc: 'https://www.pngmart.com/files/23/Github-Logo-PNG-Photo-1.png', colorClass: 'bg-gray-400' },
-    { name: 'LinkedIn', href: '#', imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png', colorClass: 'bg-blue-500' },
-    { name: 'X', href: '#', imgSrc: 'https://i.pinimg.com/474x/10/64/cf/1064cfa735ef66dc7e5087ffb7e8daa8.jpg', colorClass: 'bg-sky-400' },
-    { name: 'Instagram', href: '#', imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png', colorClass: 'bg-pink-500' },
+    { name: 'GitHub', href: 'https://github.com/SanchayCoder06', imgSrc: 'https://www.pngmart.com/files/23/Github-Logo-PNG-Photo-1.png', colorClass: 'bg-gray-400' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/sanchay-yadav-778abb27b/', imgSrc: 'https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=s256-rw', colorClass: 'bg-blue-500' },
+    { name: 'X', href: 'https://x.com/sanchay_y06', imgSrc: 'https://i.pinimg.com/474x/10/64/cf/1064cfa735ef66dc7e5087ffb7e8daa8.jpg', colorClass: 'bg-sky-400' },
+    { name: 'Instagram', href: 'https://www.instagram.com/y_sanchay06?igsh=MXVucDdsbGV1dTFuYw==', imgSrc: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png', colorClass: 'bg-pink-500' },
     { name: 'Wattpad', href: '#', imgSrc: 'https://cdn-icons-png.flaticon.com/512/3015/3015819.png', colorClass: 'bg-orange-500' },
   ];
 
   return (
+      <section id="contact" className="py-20 md:py-28">
     <div className="text-white overflow-hidden bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-8 md:p-12 mt-12">
       <div className="w-full">
         <h2 className="text-3xl text-center md:text-4xl font-bold mb-12">Get In Touch</h2>
@@ -71,6 +72,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -66,6 +66,7 @@ const Projects = () => {
   ];
 
   return (
+      <section id="projects" className="py-20 md:py-28">
     <div className="text-white overflow-hidden bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-8 md:p-12 mt-12">
       <div className="w-full">
         <h2 className="text-3xl text-center md:text-4xl font-bold mb-12">My Projects</h2>
@@ -76,6 +77,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
