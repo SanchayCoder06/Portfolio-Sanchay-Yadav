@@ -27,9 +27,15 @@ const Home = () => {
         </p>
 
         <div className="mt-8 flex gap-4">
-          <button className="bg-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition shadow-lg">
-            Resume
-          </button>
+          <a 
+  href="/Sanchay Yadav Resume.pdf" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button className="bg-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition shadow-lg">
+    Resume
+  </button>
+</a>
 <a href="#projects">
           <button className="border border-gray-400 px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
             Projects
