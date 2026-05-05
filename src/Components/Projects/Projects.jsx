@@ -72,7 +72,7 @@ const Projects = () => {
       imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRirTa9nCp9gZqdI_BOI8OHsTO51PigIjbw&s",
       title: "Netflix Clone",
       description: "Responsive UI clone with category rows and hover effects using HTML & CSS.",
-      liveLink: "#",
+      liveLink: "https://my-first-project-ten-wine.vercel.app/",
       repoLink: "https://github.com/SanchayCoder06/My-first-project"
     }
   ];
