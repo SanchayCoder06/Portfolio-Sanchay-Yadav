@@ -51,15 +51,15 @@ const Projects = () => {
       imgSrc: "portfolio.png",
       title: "Personal Portfolio Website",
       description: "A fully responsive personal portfolio built with React and Tailwind CSS to showcase my skills, projects, and certifications.",
-      liveLink: "#",
-      repoLink: "#"
+      liveLink: "https://portfolio-sanchay-yadav.vercel.app/",
+      repoLink: "https://github.com/SanchayCoder06/Portfolio-Sanchay-Yadav"
     },
     {
       imgSrc: "Screenshot (1).png",
       title: "Crop Detection Using Machine Learning",
       description: "Detects plant diseases from leaf images and provides insights for better agricultural decisions.",
       liveLink: "#",
-      repoLink: "#"
+      repoLink: "https://github.com/SanchayCoder06/CROP-DISEASE-DETECTION-USING-MACHINE-LEARNING-"
     },
     {
       imgSrc: "https://placehold.co/600x400/F59E0B/FFFFFF?text=Hotel+Booking",
