@@ -57,9 +57,16 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-10 flex justify-between items-center text-white relative z-[110]">
         
         {/* Logo */}
-        <span className="text-2xl font-black tracking-tighter bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          PORTFOLIO.
-        </span>
+  <div className="flex items-center">
+
+  <img
+    src="/logo.png"
+    alt="Logo"
+    className="w-44 h-34 object-contain"
+  />
+
+</div>
+      
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex gap-10 items-center">
