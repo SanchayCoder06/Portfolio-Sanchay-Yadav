@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const app = express();
 require("dotenv").config();
-import 'dotenv/config';
+// import 'dotenv/config';
 
 
 // ============================
@@ -94,6 +94,6 @@ app.post("/contact", async (req, res) => {
 // SERVER
 // ============================
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
+app.listen(5000, '0.0.0.0', () => {
+    console.log("Server is running on the local network!");
 });
