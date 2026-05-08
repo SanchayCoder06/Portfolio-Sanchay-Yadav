@@ -3,6 +3,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 const app = express();
+require("dotenv").config();
 
 
 // ============================
@@ -20,9 +21,8 @@ app.use(express.json());
 
   
 
-mongoose.connect(
-"mongodb+srv://sanchay:sanchay321@cluster0.fhm524t.mongodb.net/portfolioDB?retryWrites=true&w=majority"
-)
+mongoose.connect(process.env.MONGO_URI)
+
 
 
 
