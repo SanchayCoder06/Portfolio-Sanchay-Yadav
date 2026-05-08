@@ -56,7 +56,7 @@ const Message = mongoose.model("Message", messageSchema);
 // ROUTE
 // ============================
 
-app.post("/contact", async (req, res) => {
+app.post("/api/contact", async (req, res) => {
 
   try {
 
@@ -94,6 +94,15 @@ app.post("/contact", async (req, res) => {
 // SERVER
 // ============================
 
-app.listen(5000, '0.0.0.0', () => {
-    console.log("Server is running on the local network!");
-});
+// app.listen(5000, '0.0.0.0', () => {
+//     console.log("Server is running on the local network!");
+// });
+
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(5000, '0.0.0.0', () => {
+        console.log("Server is running locally!");
+    });
+}
+
+// Add this line for Vercel
+module.exports = app;

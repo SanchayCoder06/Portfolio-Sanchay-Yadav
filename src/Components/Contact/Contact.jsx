@@ -75,17 +75,14 @@ const Contact = () => {
 
     try {
 
-      const response = await fetch("http://localhost:5000/contact", {
-
-        method: "POST",
-
-        headers: {
-          "Content-Type": "application/json",
-        },
-
-        body: JSON.stringify(formData),
-
-      });
+ // Change the URL to just "/api/contact"
+const response = await fetch("/api/contact", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(formData), // Ensure you are passing your data here
+});
 
       const data = await response.json();
 
