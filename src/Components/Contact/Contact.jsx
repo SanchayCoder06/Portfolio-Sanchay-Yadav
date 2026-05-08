@@ -75,8 +75,8 @@ const Contact = () => {
 
     try {
       const API_URL = import.meta.env.DEV 
-  ? "http://localhost:5000/contact" 
-  : "/api/contact";
+ ? "/api/contact"  // Vite proxy will catch this and send to localhost:5000
+      : "/api/contact";
 
  // Change the URL to just "/api/contact"
 const response = await fetch("/api/contact", {
